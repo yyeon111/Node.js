@@ -9,8 +9,8 @@ console.warn('warn'); //경보
 console.error('error'); //에러
 
 //assert 조건이 아닐 때, 출력할 값
-console.log(2===3,'not same');
-console.log(2===2,'same');
+console.assert(2===3,'not same');
+console.assert(2===2,'same');
 
 const student = {
   name:'Nora',
