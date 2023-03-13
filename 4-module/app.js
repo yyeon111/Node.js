@@ -1,4 +1,5 @@
-const counter = require('./counter.js')
+const counter = require('./counter.js');
 
-counter.inccrease();
-counter.getCount();
+// counter.increase();
+// console.log(counter.getCount());
+
